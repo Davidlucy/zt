@@ -2,208 +2,66 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>张婷 - 电商/产品运营管培生 简历</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张婷的简历</title>
     <style>
         * {
-            margin: 0;
-            padding: 0;
             box-sizing: border-box;
-            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
         }
+
         body {
-            background: #f5f5f5;
-            padding: 40px;
-        }
-        .resume {
-            max-width: 900px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 40px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: relative;
-            overflow: hidden;
-        }
-        .resume::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 120px;
-            background: linear-gradient(135deg, #e8edf2 0%, #f5f8fa 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 40%);
-            z-index: 0;
-        }
-        .header {
-            position: relative;
-            z-index: 1;
-            margin-bottom: 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .header-text {
-            flex: 1;
-        }
-        .header h1 {
-            font-size: 24px;
-            color: #222;
-            margin-bottom: 8px;
-        }
-        .header .contact {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 4px;
-        }
-        .header .title {
-            font-size: 16px;
-            color: #555;
-            font-weight: 600;
-        }
-        .avatar {
-            width: 100px;
-            height: 140px;
-            border: 1px solid #ddd;
+            margin: 0;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 12px;
-            color: #999;
-            background: #fafafa;
+            background: #f5f7fb;
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
         }
-        section {
-            margin-bottom: 28px;
+
+        .card {
+            width: min(90vw, 520px);
+            padding: 40px 28px;
+            border-radius: 16px;
+            text-align: center;
+            background: #ffffff;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
         }
-        section h2 {
-            font-size: 18px;
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 34px;
             color: #222;
-            border-left: 4px solid #333;
-            padding-left: 10px;
-            margin-bottom: 16px;
         }
-        .summary {
-            font-size: 15px;
-            line-height: 1.7;
-            color: #444;
-        }
-        .edu-item, .exp-item, .club-item {
-            margin-bottom: 16px;
-        }
-        .edu-item .school,
-        .exp-item .company,
-        .club-item .org {
-            font-size: 16px;
-            font-weight: 600;
-            color: #222;
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 6px;
-        }
-        .edu-item .major,
-        .exp-item .position,
-        .club-item .role {
-            font-size: 14px;
-            color: #555;
-            margin-bottom: 8px;
-        }
-        .edu-item ul,
-        .exp-item ul,
-        .club-item ul {
-            margin-left: 20px;
-            font-size: 14px;
+
+        p {
+            margin: 0 0 28px;
+            color: #666;
             line-height: 1.6;
-            color: #444;
         }
-        .skills {
-            font-size: 14px;
-            line-height: 1.6;
-            color: #444;
-        }
-        .key-word {
-            color: #0066cc;
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 999px;
+            background: #1f6feb;
+            color: #fff;
+            text-decoration: none;
             font-weight: 600;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+
+        .btn:hover {
+            opacity: 0.92;
+            transform: translateY(-1px);
         }
     </style>
 </head>
 <body>
-    <div class="resume">
-        <div class="header">
-            <div class="header-text">
-                <h1>张婷</h1>
-                <div class="contact">15736750572 | 2751157411@qq.com</div>
-                <div class="title">电商/产品运营管培生（26届应届生）</div>
-            </div>
-            <div class="avatar">
-                在此处放入照片
-            </div>
-        </div>
-
-        <section>
-            <h2>个人总结</h2>
-            <p class="summary">
-                26届智能科学与技术本科，具备<span class="key-word">市场运营、内容策略</span>实习经验，对电商/二手行业有浓厚兴趣；擅长<span class="key-word">数据分析、策略制定、跨部门协作、项目落地</span>，熟练使用Excel/MySQL/Python等数据分析工具，具备良好的逻辑思维、业务抽象能力和主观能动性；自驱力强、抗压能力佳，可全职实习，期望深耕电商/产品运营领域。
-            </p>
-        </section>
-
-        <section>
-            <h2>教育经历</h2>
-            <div class="edu-item">
-                <div class="school">郑州轻工业大学 <span>2022年09月 - 2026年06月</span></div>
-                <div class="major">智能科学与技术（本科）</div>
-                <ul>
-                    <li>主修课程：高等数学、概率论、数据分析、机器学习、大数据技术、Python程序设计、MySQL、软件项目管理（夯实<span class="key-word">数据分析/逻辑思维/业务抽象</span>基础）</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>实习经历</h2>
-            <div class="exp-item">
-                <div class="company">蔚来汽车 <span>2025年03月 - 2025年07月</span></div>
-                <div class="position">区域产品运营 市场部</div>
-                <ul>
-                    <li><span class="key-word">数据分析</span>：基于抖音/小红书用户行为数据、转化漏斗分析，提炼核心需求，推动直播流程/产品手册迭代，减少用户咨询量20%；搭建“直播-Leads转化漏斗”分析模型，为业务决策提供数据支持。</li>
-                    <li><span class="key-word">策略制定与落地</span>：主导小红书图文A/B测试，验证“福利活动”内容CPL降低23%，沉淀标准化模板复用至全国6大区域，单篇笔记转化效率提升18%；设计KOC分级激励规则，助力运营效率提升40%。</li>
-                    <li><span class="key-word">跨部门协作</span>：协助整理直播高频用户问题，同步给产品与销售团队，参与APP服务页优化需求沟通，提升问题反馈与处理效率，推动项目顺利落地。</li>
-                    <li><span class="key-word">项目执行与效果跟踪</span>：优化直播间试驾预约链路，锁单量提升30%，CPK成本降至77元，跟进项目进展并对运营效果闭环负责。</li>
-                </ul>
-            </div>
-
-            <div class="exp-item">
-                <div class="company">高途教育科技有限公司 <span>2025年02月 - 2025年03月</span></div>
-                <div class="position">小红书运营</div>
-                <ul>
-                    <li><span class="key-word">内容运营与策略</span>：协助运营小红书矩阵账号，参与学习干货、备考指导类人设搭建，精准定位学员群体，辅助完成账号基础内容规划与流量获取策略制定。</li>
-                    <li><span class="key-word">内容策划与推广</span>：原创课程宣传文案、干货笔记20余篇，配合团队优化选题与发布节奏，单篇最高曝光1W+，提升内容曝光与用户咨询转化效率。</li>
-                    <li><span class="key-word">用户增长与转化</span>：通过人设种草、福利引导等方式辅助课程推广，日常跟进用户咨询，协助团队完成基础引流与转化工作。</li>
-                    <li><span class="key-word">数据复盘与优化</span>：每日统计笔记播放、点赞数据，协助输出复盘总结，配合团队迭代内容方向，提升整体运营效率。</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>社团和组织经历</h2>
-            <div class="club-item">
-                <div class="org">软件学院新媒体中心 <span>2022年09月 - 2025年01月</span></div>
-                <div class="role">新媒体中心主任</div>
-                <ul>
-                    <li><span class="key-word">业务运营与管理</span>：主导公众号运营，策划30+专题内容，优化选题/发布时间，粉丝增长22%、阅读量提升30%；统筹线下活动宣传全流程，落地视觉设计与内容宣发，具备门店/渠道运营思维。</li>
-                    <li><span class="key-word">数据驱动优化</span>：通过Excel分析后台数据+问卷结果，定位内容运营问题，输出优化策略并落地，具备数据处理与经营分析能力。</li>
-                    <li><span class="key-word">团队管理与带教</span>：负责新成员带教、团队激励，搭建内容运营SOP，提升团队协作效率，具备基础人员管理与团队建设能力。</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>专业技能</h2>
-            <div class="skills">
-                <ul>
-                    <li><span class="key-word">数据分析</span>：Excel（透视表/函数/数据透视）、MySQL、Python（Pandas/Numpy）、数据可视化、竞品分析、用户行为分析</li>
-                    <li><span class="key-word">运营/产品</span>：文案撰写、内容策略、流量获取、用户增长、A/B测试、跨部门沟通、项目执行与效果跟踪</li>
-                    <li><span class="key-word">工具与能力</span>：Office、AI工具（内容生成/数据分析）、业务抽象、自驱力强、抗压能力佳、快速学习能力</li>
-                </ul>
-            </div>
-        </section>
-    </div>
+    <main class="card">
+        <h1>张婷的简历</h1>
+        <p>欢迎查看张婷的个人简历页面，点击下方按钮进入电商运营简历详情。</p>
+        <a class="btn" href="./电商运营.html">电商运营</a>
+    </main>
 </body>
 </html>
