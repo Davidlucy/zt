@@ -51,6 +51,13 @@
             transition: transform 0.2s ease, opacity 0.2s ease;
         }
 
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
         .btn:hover {
             opacity: 0.92;
             transform: translateY(-1px);
@@ -60,8 +67,11 @@
 <body>
     <main class="card">
         <h1>张婷的简历</h1>
-        <p>欢迎查看张婷的个人简历页面，点击下方按钮进入电商运营简历详情。</p>
-        <a class="btn" href="./resumes/电商运营.html">电商运营</a>
+        <p>欢迎查看张婷的个人简历页面，点击下方按钮进入对应方向的简历详情。</p>
+        <div class="btn-group">
+            <a class="btn" href="./resumes/电商运营.html">电商运营</a>
+            <a class="btn" href="./resumes/产品运营.html">产品运营</a>
+        </div>
     </main>
 </body>
 </html>
